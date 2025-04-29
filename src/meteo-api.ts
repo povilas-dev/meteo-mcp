@@ -131,7 +131,7 @@ async function getWeatherForecast(placeCode: string, forecastType: string = 'lon
   }
 }
 
-export const meteo = {
+export const meteoApi = {
   getPlaces,
   getForecasts,
   getWeatherForecast
