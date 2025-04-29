@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "Lithuanian weather service": {
+      "command": "node",
+      "args": [
+        "./build/index.js"
+      ]
+    }
+  }
+}

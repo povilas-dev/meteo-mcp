@@ -1,0 +1,11 @@
+---
+description: Use this rule when returning responses from Lithuanian weather service tools about the weather forecast
+globs:
+alwaysApply: false
+---
+
+# Weather Forecase Response Guidelines
+
+When returning a weather forecast, based on the `conditionCode` add an appropriate emoji. `clear: sun emoji`, `cloudy: cloud emoji` and so on.
+
+Include positive or negative signs if the temperature is positive or negative.
